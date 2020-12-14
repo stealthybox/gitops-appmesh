@@ -45,6 +45,8 @@ spec:
             - --random-delay=false
             - --random-error=false
           env:
+            # - name: PODINFO_UI_LOGO
+            #   value: https://legismusic.com/wp-content/uploads/2017/07/christmas-royalty-free-music.jpg
             - name: PODINFO_UI_COLOR
               value: "#34577c"
           livenessProbe:
