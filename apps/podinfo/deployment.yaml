@@ -46,9 +46,9 @@ spec:
             - --random-error=false
           env:
             - name: PODINFO_UI_LOGO
-              value: https://legismusic.com/wp-content/uploads/2017/07/christmas-royalty-free-music.jpg
+              value: https://s.abcnews.com/images/US/thanksgiving-dinner-gty-jt-171119_16x9_992.jpg
             - name: PODINFO_UI_COLOR
-              value: "#34577c"
+              value: "orange"
           livenessProbe:
             exec:
               command:
