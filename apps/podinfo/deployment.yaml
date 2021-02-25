@@ -47,8 +47,8 @@ spec:
           env:
             - name: PODINFO_UI_LOGO
               value: https://s.abcnews.com/images/US/thanksgiving-dinner-gty-jt-171119_16x9_992.jpg
-            - name: PODINFO_UI_COLOR
-              value: "orange"
+            # - name: PODINFO_UI_COLOR
+            #   value: "orange"
           livenessProbe:
             exec:
               command:
